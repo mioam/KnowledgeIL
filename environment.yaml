@@ -1,0 +1,20 @@
+name: Knowledge2
+channels:
+  - nvidia/label/cuda-11.6.1
+  - pytorch
+  - nvidia
+  - defaults
+dependencies:
+  - python=3.10.18
+  - pytorch=1.13.1
+  - torchvision=0.14.1
+  - cudatoolkit=11.6
+  - pip
+  - pip:
+      - diffusers==0.33.1
+      - easydict==1.13
+      - einops==0.8.1
+      - numpy==1.26.0
+      - open3d==0.18.0
+      - opencv-python
+      - "git+https://github.com/facebookresearch/pytorch3d.git"
