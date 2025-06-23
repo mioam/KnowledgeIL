@@ -1,8 +1,8 @@
 # Knowledge-Driven Imitation Learning: Enabling Generalization Across Diverse Conditions
 
-[[Paper]]() [[Project Page]]()
+[[Paper]]() [[Project Page]](https://knowledge-driven.github.io/)
 
-**Authors**: Zhuochen Miao, Jun Lv, Hongjie Fang, Yang Jin, Cewu Lu
+**Authors**: [Zhuochen Miao](https://github.com/mioam), [Jun Lv](https://lyuj1998.github.io/), [Hongjie Fang](https://tonyfang.net/), [Yang Jin](https://github.com/EricJin2002), [Cewu Lu](https://www.mvig.org/)
 
 ![pipeline](assets/pipeline.png)
 
