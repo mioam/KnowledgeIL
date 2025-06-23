@@ -1,4 +1,4 @@
-name: Knowledge2
+name: Knowledge
 channels:
   - nvidia/label/cuda-11.6.1
   - pytorch
@@ -8,7 +8,8 @@ dependencies:
   - python=3.10.18
   - pytorch=1.13.1
   - torchvision=0.14.1
-  - cudatoolkit=11.6
+  - pytorch-cuda=11.6
+  - libcusolver-dev
   - pip
   - pip:
       - diffusers==0.33.1

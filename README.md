@@ -1,18 +1,29 @@
+# Knowledge-Driven Imitation Learning: Enabling Generalization Across Diverse Conditions
+
+[[Paper]]() [[Project Page]]()
+
+**Authors**: Zhuochen Miao, Jun Lv, Hongjie Fang, Yang Jin, Cewu Lu
+
+![pipeline](assets/pipeline.png)
+
+## Getting Started
+
 ### Requirement
 
 To set up the environment, run:
 
 ```bash
 conda env create -f environment.yaml
+conda activate Knowledge
 ```
 
-> For real-world evaluation, you also need to run:
->
-> ```bash
-> pip install pyrealsense2 pynput
-> ```
->
-> and place the `flexiv_rdk/` directory into the root folder of this project.
+For real-world evaluation, you also need to run:
+
+```bash
+pip install pyrealsense2 pynput
+```
+
+and place `flexiv_rdk/` into the root folder of this project.
 
 ### Knowledge Template
 
@@ -86,4 +97,17 @@ python eval.py \
   --policy_type anchor \
   --cfg data/dataset/mug/config.yaml \
   --vis
+```
+
+## Acknowledgement
+
+- Our codebase is adapt from [RISE](https://github.com/rise-policy/rise), realeased under CC BY-NC-SA 4.0 License.
+- The diffusion module is from [Diffusion Policy](https://github.com/real-stanford/diffusion_policy), released under MIT License.
+- The feature extrctor [Dinov2](https://github.com/facebookresearch/dinov2) is provided under the Apache License 2.0.
+- We also refer to [DP3](https://github.com/YanjieZe/3D-Diffusion-Policy), [P3PO](https://github.com/mlevy2525/P3PO) for parts of the implementation.
+
+## Citation
+
+```bibtex
+
 ```
