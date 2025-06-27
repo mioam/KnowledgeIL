@@ -1,6 +1,6 @@
 # Knowledge-Driven Imitation Learning: Enabling Generalization Across Diverse Conditions
 
-[[Paper]]() [[Project Page]](https://knowledge-driven.github.io/)
+[[Paper]](https://arxiv.org/pdf/2506.21057) [[Project Page]](https://knowledge-driven.github.io/)
 
 **Authors**: [Zhuochen Miao](https://github.com/mioam), [Jun Lv](https://lyuj1998.github.io/), [Hongjie Fang](https://tonyfang.net/), [Yang Jin](https://github.com/EricJin2002), [Cewu Lu](https://www.mvig.org/)
 
@@ -109,5 +109,13 @@ python eval.py \
 ## Citation
 
 ```bibtex
-
+@misc{miao2025knowledgedrivenimitationlearningenabling,
+      title={Knowledge-Driven Imitation Learning: Enabling Generalization Across Diverse Conditions},
+      author={Zhuochen Miao and Jun Lv and Hongjie Fang and Yang Jin and Cewu Lu},
+      year={2025},
+      eprint={2506.21057},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2506.21057},
+}
 ```
