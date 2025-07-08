@@ -25,6 +25,10 @@ pip install pyrealsense2 pynput
 
 and place `flexiv_rdk/` into the root folder of this project.
 
+### Example Data
+
+To facilitate understanding of the data format, example data is available on [Google Dirve](https://drive.google.com/file/d/1wHISlNrRA_jU_cKNnr6dKWlxLXYTENMp/view?usp=sharing) and [Baidu Netdisk](https://pan.baidu.com/s/1ed8npmIG24P3tWHJO12nuw?pwd=2l9a). Please extract it into `data/` folder.
+
 ### Knowledge Template
 
 1. Capture an RGBD image of the target object.
